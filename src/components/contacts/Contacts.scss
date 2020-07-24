@@ -1,0 +1,29 @@
+@import '../../style/style.scss';
+
+
+.contacts {
+  padding: 0 20px 20px 20px;
+}
+.contacts__title {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__phone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contacts__location {
+  display: flex;
+  align-items: center;
+}
+.contacts__icon {
+  font-size: 25px;
+  color: $black;
+  margin-right: 10px;
+}
+
+.contacts__filials {
+  margin-top: 50px;
+}

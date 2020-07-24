@@ -1,0 +1,29 @@
+@import '../../style/style.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.header__nav {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 30px;
+  color: $black;
+  transition: all .5s;
+  &:hover {
+    color: $blue;
+  }
+}

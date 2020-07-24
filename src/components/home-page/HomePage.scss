@@ -1,0 +1,52 @@
+@import '../../style/style.scss';
+
+.home {
+  padding: 0 50px;
+}
+
+.home__title {
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.home__block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-left: 3px solid $green;
+  transform: rotateX(30deg);
+}
+
+.homePage__icon {
+  font-size: 25px;
+  color: $green;
+  margin-right: 20px;
+}
+
+.block-1 {
+  animation: homeBlockMount ease-in-out .5s ;
+}
+.block-2 {
+  animation-delay: 1s;
+  animation: homeBlockMount ease-in-out 1s ;
+}
+.block-3 {
+  animation: homeBlockMount ease-in-out 1.5s ;
+}
+
+@keyframes homeBlockMount {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
